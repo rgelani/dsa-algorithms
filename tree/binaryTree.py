@@ -49,20 +49,25 @@ class Node:
         self.left = None
         self.right = None
 
-nodes = [1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1]        
-tree = BinaryTree()
-root = tree.buildTree(nodes)
-print("Tree :: ", root.data)
-    
-print("Preorder Tree")  
-# root,left,right  
-tree.preorder(root) 
+# -----------------------------
+# Only runs if execute this file directly
+# -----------------------------
 
-print("Inorder Tree")    
-# left,root,right
-tree.inorder(root) 
+if __name__ == "__main__": # To avoid run on import
+    nodes = [1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1]        
+    tree = BinaryTree()
+    root = tree.buildTree(nodes)
+    print("Tree :: ", root.data)
+        
+    print("Preorder Tree")  
+    # root,left,right  
+    tree.preorder(root) 
 
-print("Postorder Tree")   
-# left,right,root 
-tree.postorder(root) 
+    print("Inorder Tree")    
+    # left,root,right
+    tree.inorder(root) 
+
+    print("Postorder Tree")   
+    # left,right,root 
+    tree.postorder(root) 
         
