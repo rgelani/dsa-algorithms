@@ -1,4 +1,6 @@
 # Counts total number of nodes in tree
+# left subtree count + right subtree count + 1
+# Time Complexity = O(N)
 
 from binaryTree import BinaryTree
 

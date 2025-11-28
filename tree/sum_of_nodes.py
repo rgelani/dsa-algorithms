@@ -1,9 +1,11 @@
 # Calculate sum of nodes
+# left subtree sum + right subtree sum + root
+# Time Complexity = O(N)
 
 from binaryTree import BinaryTree
 
 class SumOfNodes:
-    def __init__(self):
+    def __init__(self): # optional
         pass
 
     def calculateSum(self, root):
