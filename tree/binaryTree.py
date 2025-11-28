@@ -1,4 +1,6 @@
 # Build Tree Preorder in python
+# Time Complixity :: O(n)
+
 class BinaryTree:
     def __init__(self):
         self.idx = -1

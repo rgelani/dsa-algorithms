@@ -2,6 +2,7 @@
 # Queue - FIFO,
 # Iteration,
 # BFS - Breadth First Search
+# Time Complixity :: O(n)
 
 from binaryTree import BinaryTree
 from collections import deque
@@ -13,6 +14,7 @@ class LevelOrderTraverse:
     def traverse(self):
         if not self.root:
             return
+        
         q = deque()
         q.append(self.root)
         q.append(None) # level marker
