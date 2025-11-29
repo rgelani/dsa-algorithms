@@ -1,3 +1,6 @@
 [submodule "Senior-Python-Roadmap"]
 	path = Senior-Python-Roadmap
 	url = https://github.com/rgelani/Senior-Python-Roadmap
+[submodule "utils/python_tools"]
+	path = utils/python_tools
+	url = https://github.com/rgelani/Senior-Python-Roadmap
